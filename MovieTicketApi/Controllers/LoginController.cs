@@ -48,7 +48,6 @@ namespace MovieTicketApi.Controllers
             {
                 return Unauthorized();
             }
-
             var loginResponse = new LoginResponse();
             loginResponse.UserName = login.UserName;
             var createJWT = new CreateJWT();
